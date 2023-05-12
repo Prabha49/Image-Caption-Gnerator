@@ -26,7 +26,7 @@ def vit_model():
 def openai_model():
     load_dotenv()
     #Getting the key from env
-    openai.api_key = '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' ## you Openai key
+    openai.api_key = 'OpenAI API KEY' ## you Openai key
     openai_model = "text-davinci-002" # OpenAI model
     return openai_model
 
